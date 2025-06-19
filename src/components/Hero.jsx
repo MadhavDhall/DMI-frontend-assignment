@@ -5,7 +5,7 @@ import AnimatedButton from "./AnimatedComponents/AnimatedButton";
 const Hero = () => {
     return (
         <FadeInSection>
-            <header className='min-h-screen relative flex flex-col items-center justify-center p-5 space-y-6 text-center bg-linear-to-br from-[#FDFCFB] to-[#F7F8F9] font-inter'>
+            <header className='min-h-screen relative flex flex-col items-center justify-center px-5 py-7 space-y-6 text-center bg-linear-to-br from-[#FDFCFB] to-[#F7F8F9] font-inter'>
 
                 <motion.div
                     initial={{ scale: 0.3, opacity: 0 }}
@@ -19,15 +19,6 @@ const Hero = () => {
               xl:w-[400px] xl:h-[400px]
               rounded-full bg-[radial-gradient(circle,#f8e9e9,#faf0f0)] blur-2xl z-0 motion-safe:animate-pulse"
                 />
-
-                {/* Background Circle  */}
-                {/* <div class="absolute top-25 left-10 md:left-15
-              w-[200px] h-[200px] 
-              sm:w-[250px] sm:h-[250px] 
-              md:w-[300px] md:h-[300px] 
-              lg:w-[350px] lg:h-[350px]
-              xl:w-[400px] xl:h-[400px]
-              rounded-full bg-[radial-gradient(circle,#f8e9e9,#faf0f0)] blur-2xl z-0"></div> */}
 
                 {/* logo starts here */}
                 <div className='bg-[#cf2f25] py-8 px-5 rounded-2xl w-fit shadow-lg shadow-[#dfdfdf] z-1'>
@@ -52,10 +43,16 @@ const Hero = () => {
                 {/* main headline ends here */}
 
                 {/* sub headline starts here */}
-                <h2 className='text-xl lg:text-4xl text-[#4d5462] font-semibold'>
+                <h2 className='text-xl lg:text-4xl text-[#4d5462] font-semibold z-1 max-w-4xl'>
                     From brand kit to launch-ready content, websites & apps — powered by AI.
                 </h2>
                 {/* sub headline ends here */}
+
+                {/* description starts here */}
+                <h5 className="text-[#6d7280] text-lg md:text-xl max-w-3xl z-1">
+                    500+ startups use DMI for instant brand identities, social content, and app UIs—minutes, not months.
+                </h5>
+                {/* description ends here */}
 
                 {/* cta buttons starts here */}
                 <div className="flex flex-col md:flex-row md:space-x-6 items-center justify-center space-y-5 md:space-y-0 mt-8">

@@ -1,16 +1,13 @@
-<<<<<<< HEAD
-# DMI-frontend-assignment
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# DMI.AI - Frontend Developer Hiring Challenge (Round 1)
 
-Currently, two official plugins are available:
+This repository contains the solution to the assignment challenge. The Hero section has been recreated to closely match the reference screenshot provided in the challenge document.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Live Demo: 
 
-## Expanding the ESLint configuration
+#### Explanation of Design/Tech Decisions:
+The website uses TailwindCSS for clean and easy to maintain code for responsive web design.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 0514818 (Website done)
+React.js is chosen for the frontend to enable fast, interactive user experiences and component-based development to keep the code DRY (Do not Repeat Yourself).
+
+Minimilist and clean animations are used for clean and better UX(User Experience)
