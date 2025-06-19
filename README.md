@@ -3,7 +3,7 @@
 
 This repository contains the solution to the assignment challenge. The Hero section has been recreated to closely match the reference screenshot provided in the challenge document.
 
-### Live Demo: 
+### Live Demo: https://dmi-frontend-assignment.vercel.app/
 
 #### Explanation of Design/Tech Decisions:
 The website uses TailwindCSS for clean and easy to maintain code for responsive web design.
